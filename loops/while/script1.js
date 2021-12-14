@@ -3,7 +3,7 @@ var paragraph;
 var number;
 // saiser:
 paragraph = document.getElementById('pr');
-number = 0;
+number = 5;
 
 // treatment 
 while(number <= 5){
