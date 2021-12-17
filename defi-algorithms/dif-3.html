@@ -8,14 +8,16 @@
 </head>
 <body>
     <script>
+        // déclaration de variables
         var listnumbers;
         var maxnumbers;
         var i;
+        // saisir
         listnumbers = [];
         listnumbers[0] = 1;
         listnumbers[1] = 35;
         listnumbers[2] = 17;
-        listnumbers[3] = 28;
+        listnumbers[3] = 300;
         listnumbers[4] = 80;
         listnumbers[5] = 250;
         listnumbers[6] = 90;
@@ -25,7 +27,7 @@
         listnumbers[10] = 77;
 
         maxnumbers = listnumbers[0];
-
+      // traitement
         for (i = 0; i <= listnumbers.length; i++) {
             if(maxnumbers <= listnumbers[i]){
                 maxnumbers = listnumbers[i];
