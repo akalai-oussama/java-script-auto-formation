@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var listnumbers;
+        var maxnumbers;
+        var i;
+        listnumbers = [];
+        listnumbers[0] = 1;
+        listnumbers[1] = 35;
+        listnumbers[2] = 17;
+        listnumbers[3] = 28;
+        listnumbers[4] = 80;
+        listnumbers[5] = 250;
+        listnumbers[6] = 90;
+        listnumbers[7] = 110;
+        listnumbers[8] = 100;
+        listnumbers[9] = 65;
+        listnumbers[10] = 77;
+
+        maxnumbers = listnumbers[0];
+
+        for (i = 0; i <= listnumbers.length; i++) {
+            if(maxnumbers <= listnumbers[i]){
+                maxnumbers = listnumbers[i];
+            }
+            
+        }
+        document.write(maxnumbers);
+    </script>
+</body>
+</html>
