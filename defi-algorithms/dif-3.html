@@ -28,13 +28,13 @@
 
         maxnumbers = listnumbers[0];
       // traitement
-        for (i = 0; i <= listnumbers.length; i++) {
+        for (i = 0; i < listnumbers.length; i++) {
             if(maxnumbers <= listnumbers[i]){
                 maxnumbers = listnumbers[i];
             }
             
         }
-        document.write("ur max number was "  + maxnumbers);
+        document.write("ur max number was "  + maxnumbers + "posetion" + listnumbers.indexOf(maxnumbers));
     </script>
 </body>
 </html>
